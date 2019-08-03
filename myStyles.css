@@ -12,9 +12,28 @@
 }
 .password{
   margin-left: 20%;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
-
+#register_button{
+    margin-left: 20%;
+}
+#register_button,#login_button{
+display:inline-block;
+}
+#login_button{
+    margin-left: 5%;
+}
+.button{
+  margin-top: 10px;
+  width:178%;
+  height: 5%;
+  border-radius: 10px;
+  background-color: black;
+  border-color: black;
+  font-size: 18px;
+  color:#ffe600;
+  font : times;
+}
 .fontColor{
   color: white;
   align-self: left ;
@@ -22,8 +41,8 @@
   input{
     border-style: solid;
     border-color: black;
-    height: 30px;
-    width: 300px;
+    height: 5%;
+    width: 25%;
     position: center;
     display: block;
     border-radius: 10px;
