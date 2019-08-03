@@ -1,0 +1,31 @@
+.inputform{
+  background-image: url("home.jpg");
+  background-size: cover;
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+
+}
+.login{
+  margin-left: 20%;
+  padding-top: 20%;
+}
+.password{
+  margin-left: 20%;
+  margin-top: 20px; 
+}
+
+.fontColor{
+  color: white;
+  align-self: left ;
+}
+  input{
+    border-style: solid;
+    border-color: black;
+    height: 30px;
+    width: 300px;
+    position: center;
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+  }
