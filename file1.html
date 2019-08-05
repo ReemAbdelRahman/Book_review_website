@@ -1,28 +1,28 @@
 <DOCTYPE html!>
-<html>
-<head>
-<title> Home Page</title>
- <link rel="stylesheet" href="myStyles.css">
-</head>
-<body>
-  <div class = "inputform">
-<form>
-  <div class = "login">
-   <label class = "fontColor" for="email"><b>Username</b></label >
-  <input  type= "text" placeholder="username" name="username">
-  </div>
-  <div class = "password">
-   <label class = "fontColor" for="password"><b>Password</b></label>
-  <input  type="password" placeholder="password" name ="password">
+  <html>
+    <head>
+      <title> Home Page</title>
+      <link rel = "stylesheet" href = "myStyles.css">
+    </head>
+    <body>
+      <div class = "inputform">
+        <form method = "post">
+          <div class = "login">
+              <label class = "labels" for = "username"><b> Username </b></label >
+              <input  type = "text" placeholder = "username" name = "username">
+              <div id = "sec_label">
+              <label  class = "labels" for = "password"><b> Password </b></label>
+              <input  type = "password" placeholder = "password" name = "password">
 
-</div>
-</form>
-<div id = "register_button">
-<button class = "button" type = "submit"> Register </button>
-</div>
-<div id = "login_button">
-<button class = "button" type = "submit"> Log in </button>
-</div>
-</div>
-</body>
-</html>
+                <div id ="register_button">
+                <button class = "button" type = "submit" formaction = "{{url_for('register')}}"> Register </button>
+              </div>
+                <div id = "login_button">
+                <button class = "button" type = "submit" formaction = "{{url_for('login')}}"> Log in </button>
+              </div>
+            </div>
+            </div>
+          </form>
+        </div>
+    </body>
+  </html>
